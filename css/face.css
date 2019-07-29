@@ -1,0 +1,35 @@
+body{
+    background-color: #373435;
+    height: 100%;
+}
+
+.container{
+    width: 100vw;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#video, #canvas {
+    position: absolute;
+    border: 5px solid yellowgreen;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botaoDeteccao{
+    width: 550px;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
+}
